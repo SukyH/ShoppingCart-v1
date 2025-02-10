@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Shopping Cart Price Calculator</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="validations.js"></script> <!-- Link to external JavaScript
+file -->
+
+</head>
+<body>
+ <header>
+ <h1>Shopping Cart Calculator</h1>
+ </header>
+ 
+ <main>
+ <form action="CalculatorServlet" method="post" onsubmit="return validateForm()">
+ 
+ <fieldset>
+ <legend>Specify Purchase Details</legend>
+   
+        <label for="cname">Customer Name:</label>
+        <input type="text" id="cname" name="cname"><br><br>
+
+        <label for="noItems">Number of Items:</label>
+        <input type="text" id="noItems" name="noItems" min="1"><br><br>
+
+        <label for="price">Price per Item:</label>
+        <input type="text" id="price" name="price" step="0.01" min="0.01"><br><br>
+
+        <label for="province">Shipping Province:</label>
+        <input type="text" id="province" name="province"><br><br>
+
+        <label for="tax">Tax Rate (%):</label>
+        <input type="text" id="tax" name="tax" step="0.1" min="0.1"><br><br>
+
+    <input type="submit" value="Calculate">
+ </fieldset>
+ </form>
+ 
+ </main>
+
+   <footer>
+ <p>Created by Sukaina Habib (ID=219186667) for E-Commerce Lab Test 1</p>
+ </footer>
+ 
+</body>
+</html>
