@@ -27,8 +27,8 @@ Steps to Set Up
 
     Clone the Repository:
 
-git clone https://github.com/yourusername/Habib-Test1.git
-cd Habib-Test1
+git clone https://github.com/yourusername/ShoppingCart-v1.git
+cd ShoppingCart-v1
 
 Import into Eclipse:
 
@@ -41,4 +41,4 @@ Run the Application:
     Right-click on the project in Eclipse.
     Choose Run As > Run on Server.
     Select your Tomcat server or configure one if needed.
-    Once the server is running, open your browser and go to http://localhost:8080/Habib-Test1.
+    Once the server is running, open your browser and go to http://localhost:8080/ShoppingCart-v1
